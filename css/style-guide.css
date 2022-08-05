@@ -17,16 +17,16 @@ body {
     background-image: url("../images-cards/bg-pattern-bottom.svg");
     background-size: cover;
     width: 570px;
-    height: 630px;
+    height: 680px;
     transform: rotate(93deg);
-    margin: -52px;
+    margin-top: -172px;
 }
 
 .bottom {
     background-image: url("../images-cards/bg-pattern-top.svg");
     background-size: cover;
-    width: 640px;
-    height: 336px;
+    width: 680px;
+    height: 436px;
     margin-top: -14px;
 
 }
@@ -35,7 +35,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: -220px;
+    margin-top: -240px;
 }
 
 
@@ -72,7 +72,7 @@ body {
 .card-component .city-position {
     text-align: center;
     font-size: 13px;
-    color: #aaa;
+    color: rgba(133, 131, 131, 0.884);
     margin-top: -18px;
 }
 
@@ -89,7 +89,7 @@ body {
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    border-top: 1px solid #aaaaaa52;
+    border-top: 1px solid #aaaaaa91;
     padding: 12px 0;
     margin-top: 10px;
 }
@@ -112,14 +112,14 @@ body {
 .likes div:last-child ,
 .photos div:last-child {
     font-size: 12px;
-    color: #aaa;
+    color: #aaaaaabe;
 }
 
 .card-person {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -19rem;
+    margin-top: -21rem;
 }
 
 
