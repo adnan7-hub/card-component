@@ -3,7 +3,11 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     line-height: 50px;
     background-color: hsl(185, 75%, 39%);
-
+    background-image: url("../images-cards/bg-pattern-top.svg") , url("../images-cards/bg-pattern-bottom.svg");
+    background-position: top -570px left -450px , bottom -770px right -370px;
+    background-size: 80% , 80%;
+    background-repeat: no-repeat , no-repeat;
+    height: 90vh;
 }
 
 
@@ -13,30 +17,8 @@ body {
 /* - Mobile: 375px
 - Desktop: 1440px */
 
-.top {
-    background-image: url("../images-cards/bg-pattern-bottom.svg");
-    background-size: cover;
-    width: 570px;
-    height: 680px;
-    transform: rotate(93deg);
-    margin-top: -172px;
-}
 
-.bottom {
-    background-image: url("../images-cards/bg-pattern-top.svg");
-    background-size: cover;
-    width: 680px;
-    height: 436px;
-    margin-top: -14px;
 
-}
-
-.circle-bottom {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -240px;
-}
 
 
 .card-component {
@@ -48,7 +30,7 @@ body {
     overflow: hidden;
     border-radius: 18px;
     z-index: 88;
-    margin-top: -31px;
+    margin-top: 7rem;
 }
 
 .card-component .background {
@@ -119,7 +101,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -21rem;
+    /* margin-top: -21rem; */
 }
 
 
