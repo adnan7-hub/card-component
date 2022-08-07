@@ -4,10 +4,10 @@ body {
     line-height: 50px;
     background-color: hsl(185, 75%, 39%);
     background-image: url("../images-cards/bg-pattern-top.svg") , url("../images-cards/bg-pattern-bottom.svg");
-    background-position: top -570px left -450px , bottom -770px right -370px;
+    background-position: top -580px left -450px , bottom -850px right -370px;
     background-size: 80% , 80%;
     background-repeat: no-repeat , no-repeat;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 
